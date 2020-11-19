@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+  }
+
+html, body {
+    height: 100%;
+}
+/*-------barra de navegacion-start------*/
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    padding: 10px 0 10px 0;
+    
+} 
+
+.profile-pic {
+    border-radius: 50px;
+ }
+
+.grid {
+    max-width: 30px;
+    max-height: 16px;
+    opacity: 0.5;
+    
+}
+.grid:hover {
+    opacity: .85;
+}
+
+a {
+    font-size: 13px;
+}
+.navlink {
+    color: rgba(0,0,0,0.87);
+    font-size: 12px;
+    padding: 2px 20px 10px 0;
+}
+.navlink:hover {
+text-decoration: underline;
+}
+/*-------barra de navegacion-end------*/
+
+/*-------pagina central-start------*/
+.container {
+text-align: center;
+padding: 100px;
+}
+.search-bar {
+    display: block;
+    padding: 10px;
+    border-radius: 24px;
+    margin: auto;
+    margin-top: 20px;
+    width: 500px;
+    border: 1px solid #dfe1e5;
+}
+.google-logo {
+    width: 272px;
+    height: 92px;
+}
+input[type=submit] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 8px 14px;
+    color: rgb(65, 64, 64);
+    margin: 13px 6px;
+    font-size: 12px;
+}
+input[type=submit]:hover {
+    border: 1px solid  rgba(223, 219, 219, 0.979);
+}
+.container p, .container a {
+    margin-top: 10px;
+    font-size: 11px;
+}
+.search-bar:hover {
+    box-shadow: 0 1px 2px  rgb(170, 170, 170);
+}
+.container a:hover {
+    text-decoration: underline;
+}
+
+
+/*-------pagina central-end------*/
+
+/*-------footer-start-----*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    align-content: center;
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+    
+    font-size: 10px;
+    
+}
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    max-height: 5vh;
+    border-top: .1px solid #dadce0;
+    max-height: 40px;
+   
+    
+}
+
+ul {
+    display: flex;
+    padding-left: 15px;
+    
+}
+li {
+    padding: 10px;
+    color: #70757a;
+    font-size: 12px;
+}
+
+li:hover {
+    text-decoration: underline;
+    
+}
+
+span {
+    font-size: 14px;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    line-height: 40px;
+    padding-left: 27px;
+    
+}
+
+.footer-left-links a, .footer-right-links a {
+    padding: 0 !important;
+}
+.footer-right-links {
+    padding-right: 16px;
+}
+/*-------footer-end------*/
